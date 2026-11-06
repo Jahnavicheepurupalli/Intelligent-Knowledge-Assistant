@@ -1,0 +1,92 @@
+﻿[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "expected_category": "unsupported",
+    "description": "General knowledge question outside of database."
+  },
+  {
+    "id": 2,
+    "question": "How do you build a spacecraft?",
+    "expected_category": "unsupported",
+    "description": "Highly complex, out-of-domain knowledge request."
+  },
+  {
+    "id": 3,
+    "question": "What is the definition of RAG?",
+    "expected_category": "supported_direct",
+    "description": "Basic concept definition expected in standard documentation."
+  },
+  {
+    "id": 4,
+    "question": "Who developed the first database model?",
+    "expected_category": "unsupported",
+    "description": "Historical external query."
+  },
+  {
+    "id": 5,
+    "question": "What are the three steps in standard RAG?",
+    "expected_category": "supported_direct",
+    "description": "Direct steps query."
+  },
+  {
+    "id": 6,
+    "question": "How does ChromaDB store vector embeddings?",
+    "expected_category": "supported_direct",
+    "description": "Chroma database storage query."
+  },
+  {
+    "id": 7,
+    "question": "What is the similarity threshold set to in this system?",
+    "expected_category": "supported_direct",
+    "description": "Config parameters check."
+  },
+  {
+    "id": 8,
+    "question": "Compare semantic search and keyword search based on the document.",
+    "expected_category": "supported_multi_hop",
+    "description": "Requires multi-hop or comparative aggregation."
+  },
+  {
+    "id": 9,
+    "question": "What is sentence-transformers/all-MiniLM-L6-v2?",
+    "expected_category": "supported_direct",
+    "description": "Check details of embeddings model."
+  },
+  {
+    "id": 10,
+    "question": "What happens if a query is below the similarity threshold?",
+    "expected_category": "supported_direct",
+    "description": "Retrieval flow details."
+  },
+  {
+    "id": 11,
+    "question": "Explain the role of Groq API in this Capstone project.",
+    "expected_category": "supported_direct",
+    "description": "LLM infrastructure explanation."
+  },
+  {
+    "id": 12,
+    "question": "Tell me about quantum computing algorithms.",
+    "expected_category": "unsupported",
+    "description": "Out-of-domain physics/CS question."
+  },
+  {
+    "id": 13,
+    "question": "What is the difference between PyPDF and Docx2txt loaders?",
+    "expected_category": "supported_multi_hop",
+    "description": "Comparing two loaders based on documentation."
+  },
+  {
+    "id": 14,
+    "question": "Why is Llama 3.1 8B model chosen for generation?",
+    "expected_category": "supported_direct",
+    "description": "System architecture design query."
+  },
+  {
+    "id": 15,
+    "question": "What are the potential future enhancements for this project?",
+    "expected_category": "supported_direct",
+    "description": "Future works summary query."
+  }
+]
